@@ -1,0 +1,163 @@
+/* Custom Styles */
+
+/* Home Section */
+.home-section {
+    background-color: #ffc107; /* Yellow background color */
+    color: #333; /* Dark text color */
+    padding: 50px 0;
+}
+
+/* About Section */
+.about-section {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+}
+
+/* Main Content */
+.main-content {
+    background-color: #f8f9fa; /* Light gray background color */
+    color: #333; /* Dark text color */
+    padding: 50px;
+}
+
+#objective {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Custom Styles */
+
+/* Services Section */
+.services-section {
+    background-color: #28a745; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+}
+
+/* Service Card */
+.service-card {
+    background-color: #f70a0a; /* White background color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.service-card:hover .card-body {
+    background-color: #167adf; /* Light gray background color on hover */
+}
+
+.service-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service-card .card-text {
+    font-size: 14px;
+    line-height: 1.6;
+    display: none; /* Hide description by default */
+}
+
+.service-card:hover .card-text {
+    display: block; /* Show description on hover */
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    background-color: #3e6186; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+}
+
+/* Testimonial Card */
+.card {
+    background-color: #d65a12; /* White background color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.card:hover .card-body {
+    background-color: #ee0c90; /* Light gray background color on hover */
+}
+
+.card .card-text {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Testimonial Modals */
+.modal-content {
+    background-color: #dcf028; /* White background color */
+    color: #333; /* Dark text color */
+}
+
+/* Team Member Card */
+
+.card:hover .designation {
+    display: block; /* Show designation on hover */
+}
+
+.card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card .card-text {
+    font-size: 14px;
+}
+
+.designation {
+    display: none; /* Hide designation by default */
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ccc; /* Add border below image */
+    padding-bottom: 10px; /* Add some padding below image */
+}
+/* Gallery Section */
+.gallery-section {
+    background-color: #17a2b8; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+}
+
+/* Carousel Image */
+.carousel-item img {
+    max-height: 400px; /* Set maximum height for images */
+    margin: 0 auto; /* Center align images */
+}
+/* Contact Section */
+.contact-section {
+    background-color: #e00f89; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+}
+/* Footer Section */
+.footer-section {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 30px 0;
+}
+
+.footer-section p {
+    margin-bottom: 0; /* Remove margin from bottom of paragraph */
+}
+
+.social-media-list {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    text-align: right;
+}
+
+.social-media-item {
+    display: inline-block;
+    margin-left: 10px; /* Adjust spacing between social media icons */
+}
+
+.social-media-item img {
+    width: 30px; /* Set width of social media icons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
